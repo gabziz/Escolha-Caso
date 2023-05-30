@@ -1,0 +1,109 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    background-image: url(https://64.media.tumblr.com/86c13dec7f8bdc6a0fdea4cfb1255a63/tumblr_ok3oo10P3q1rnbw6mo1_1280.gif);
+    background-repeat: no-repeat;
+    background-size: 100%; /*225vh 100vh*/
+}
+h1{
+    margin: 15px;
+    font-size: 4.5em;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+    color: #c6d5e6;
+    text-shadow: black 1px 2px 2px;
+
+}
+h2{
+    color: #e7e9e0;
+}
+
+select{
+    border-radius: 3rem;
+    width: 55%;
+    width: 40%;
+    height: 60px;
+    font-size: 15px;   
+    border-radius: 10px;
+    background: #dae2cb;
+    border: none;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+input:active{
+    transform: scale(0.9);
+    box-shadow: 2px 3px 1px black;
+}
+.boxDesign{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    background-color: #41465f63;
+    width: 100vh;
+    height: 70vh;
+    border-radius: 8px;
+}
+.boxDesign h2{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    font-size: 27px;
+    background-color: transparent;
+}
+.boxDesign select{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    padding: 5px 30px 5px 30px;
+    text-align: start;
+    font-size: 27px;
+    border: none;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 18.5%;
+    padding: 5px 30px 5px 30px;
+    background-color: #88adaf; 
+    border: none;
+    border-radius: 6px;
+    font-size: 23px;
+}
+.phrases{
+    color: rgb(224, 224, 228);
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 30vh;
+    text-align: justify;
+    font-size: 23px;
+}
+#myZodiac{
+    position: absolute;
+    top: 30vh;
+    right: 40vh;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    text-align: center;
+    background-color: #c8cee9;
+    padding: 5px;
+    font-weight: 600;
+    color: #231d41;
+}
